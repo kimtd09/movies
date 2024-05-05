@@ -17,12 +17,6 @@ const config_url = api_url + '/configuration'
 export const lowQualityImg = "w300"
 export const highQualityImg = "original"
 
-
-// movieDB.movies_popular_list_url = api_url + '/movie/popular?language=en-US&page=1'
-// movieDB.movies_toprated_list_url = api_url + '/movie/top_rated?language=en-US&page=1'
-// movieDB.movies_trending_list_url = api_url + '/trending/movie/day?language=en-US'
-// movieDB.tvshow_trending_list_url = api_url + '/trending/tv/day?language=en-US'
-
 const options = {
     method: 'GET',
     headers: {
