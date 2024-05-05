@@ -4,12 +4,6 @@ function Card(props) {
     }
 
     return (
-        // <div className="card">
-        //     <div className="title">{props.movie.original_title}</div>
-        //     <div className="card-desc">{props.movie.overview}</div>
-        //     <img className="card-img" src={props.imgUrl} alt={props.movie.original_title}></img>
-        // </div>
-
         <div className="card" onClick={showModal}>
             <div className="card-left">
                 <img className="card-img" src={props.imgUrl} alt={props.original_title}></img>
